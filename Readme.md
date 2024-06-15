@@ -1,6 +1,6 @@
 # Dynamic message-passing for inference and mitigation of infection-induced cascades
 
-This repository contains codes for algorithms developed in the work *"Infection-induced Cascading Failures -- Impact and Mitigation"* by Bo Li and David Saad, arXiv:2307.16767 (2023).
+This repository contains codes for algorithms developed in the work *"Infection-induced Cascading Failures -- Impact and Mitigation"* by Bo Li and David Saad, Communications Physics volume 7, Article number: 144 (2024).
 
 The codes are written in Julia. They were last tested on Julia v1.10.0.
 
@@ -17,12 +17,17 @@ The codes are not optimized for best performance.
 Please cite the following paper if the algorithm helps your research
 
 ```
-@misc{Li2023infectioncascade,
-      title={Infection-induced Cascading Failures -- Impact and Mitigation}, 
-      author={Bo Li and David Saad},
-      year={2023},
-      eprint={2307.16767},
-      archivePrefix={arXiv},
-      primaryClass={physics.soc-ph}
+@article{Li2024,
+  title = {Infection-induced cascading failures – impact and mitigation},
+  volume = {7},
+  ISSN = {2399-3650},
+  url = {http://dx.doi.org/10.1038/s42005-024-01638-1},
+  DOI = {10.1038/s42005-024-01638-1},
+  number = {1},
+  journal = {Communications Physics},
+  publisher = {Springer Science and Business Media LLC},
+  author = {Li,  Bo and Saad,  David},
+  year = {2024},
+  month = may 
 }
 ```
